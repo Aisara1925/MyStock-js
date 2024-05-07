@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>My App</title>
+
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-mynav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="fname" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Manu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" onclick="logout()">Logout</a></li>
+                <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+              </ul>
+            </li>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="h3 mb-3 fw-normal"></h1>
+    <h2>Product Stock Table</h2>
+    <h1 class="h3 mb-3 fw-normal"></h1>
+  
+<table>
+  <tr>
+    <th width="12%">รายการสินค้า</th>
+    <th width="25%">รูปภาพ</th>
+    <th width="20%">สินค้าคงเหลือ(ชิ้น)</th>
+  </tr>
+  <tr>
+    <td>Pentel_CorrectionPen</td>
+    <td><img src="Pentel_CorrectionPen_04.jpg" width="20%"></td>
+    <td>147</td>
+  </tr>
+  <tr>
+    <td>Stabilo_Highlighter</td>
+    <td><img src="Stabilo_Highlighter_05.jpeg" width="20%"></td>
+    <td>83</td>
+  </tr>
+  <tr>
+    <td>ARTLINE_Marker</td>
+    <td><img src="ARTLINE_Marker_02.jpg" width="20%"></td>
+    <td>93</td>
+  </tr>
+  <tr>
+    <td>Quantum_Pen</td>
+    <td><img src="Quantum_Pen_04.jpeg" width="20%"></td>
+    <td>100</td>
+  </tr>
+</table>
+  
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
